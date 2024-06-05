@@ -18,10 +18,10 @@ function App() {
   }, []);
 
   return (
-    <div className=" font-Electrolize bg-black h-screen w-screen flex justify-center items-center">
+    <div className=" overflow-hidden box-border font-Electrolize bg-black h-screen w-screen flex justify-center items-center">
       <div className=" text-white flex justify-center flex-col items-center ">
-        <h1 className=" text-3xl">{currentTimeDate.date}</h1>
-        <h1 className=" text-9xl">{currentTimeDate.clock}</h1>
+        <h1 className=" text-3xl md:text-3xl">{currentTimeDate.date}</h1>
+        <h1 className=" text-7xl md:text-9xl">{currentTimeDate.clock}</h1>
       </div>
     </div>
   );
